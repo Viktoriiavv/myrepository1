@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import TodoList from './Todo/TodoList'
 import Context from './context'
 import Loader from './loader'
-import Modal from "./Modal/Modal";
+import Modal from './Modal/Modal';
 
 const AddTodo = React.lazy(
   () =>
